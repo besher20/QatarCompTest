@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest", "QatarPaymentTest\QatarPaymentTest.csproj", "{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9C762F59-03AF-4FF0-8875-72A5EFF4799B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest.Models", "QatarPaymentTest.Models\QatarPaymentTest.Models.csproj", "{91B35E99-BE44-40DE-90CC-5B52940B7CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest.Data", "QatarPaymentTest.Data\QatarPaymentTest.Data.csproj", "{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest.Services", "QatarPaymentTest.Serves\QatarPaymentTest.Services.csproj", "{FE5C3EA1-6B66-4DF3-B754-6394B8679740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest.Repositories", "QatarPaymentTest.Repositories\QatarPaymentTest.Repositories.csproj", "{20265837-7A68-432D-8D18-B2F969000085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest.Middleware", "QatarPaymentTest.Middleware\QatarPaymentTest.Middleware.csproj", "{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QatarPaymentTest.Extensions", "QatarPaymentTest.Extensions\QatarPaymentTest.Extensions.csproj", "{F10116A8-A112-4BA7-89C9-4FE0923A9E41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B35E99-BE44-40DE-90CC-5B52940B7CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B35E99-BE44-40DE-90CC-5B52940B7CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B35E99-BE44-40DE-90CC-5B52940B7CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B35E99-BE44-40DE-90CC-5B52940B7CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5C3EA1-6B66-4DF3-B754-6394B8679740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5C3EA1-6B66-4DF3-B754-6394B8679740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5C3EA1-6B66-4DF3-B754-6394B8679740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5C3EA1-6B66-4DF3-B754-6394B8679740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20265837-7A68-432D-8D18-B2F969000085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20265837-7A68-432D-8D18-B2F969000085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20265837-7A68-432D-8D18-B2F969000085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20265837-7A68-432D-8D18-B2F969000085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10116A8-A112-4BA7-89C9-4FE0923A9E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10116A8-A112-4BA7-89C9-4FE0923A9E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10116A8-A112-4BA7-89C9-4FE0923A9E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10116A8-A112-4BA7-89C9-4FE0923A9E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C807D71-D24E-4B29-88DC-FFC5A9A5844B} = {9C762F59-03AF-4FF0-8875-72A5EFF4799B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6457F3B-B93D-4563-A411-6E8E3BAC74FA}
+	EndGlobalSection
+EndGlobal

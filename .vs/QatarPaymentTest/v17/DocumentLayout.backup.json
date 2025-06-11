@@ -1,0 +1,856 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F10116A8-A112-4BA7-89C9-4FE0923A9E41}|QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.extensions\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10116A8-A112-4BA7-89C9-4FE0923A9E41}|QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj|solutionrelative:qatarpaymenttest.extensions\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\implementation\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\implementation\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\implementation\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\implementation\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\entities\\customfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\entities\\customfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\entities\\companycustomfieldvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\entities\\companycustomfieldvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\enum\\customfieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\enum\\customfieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\implementation\\customfieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\implementation\\customfieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\customfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\customfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\createcustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\createcustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\controllers\\customfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\controllers\\customfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10116A8-A112-4BA7-89C9-4FE0923A9E41}|QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10116A8-A112-4BA7-89C9-4FE0923A9E41}|QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj|solutionrelative:qatarpaymenttest.extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\interfaces\\icustomfieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\interfaces\\icustomfieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}|QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38D4E0BD-75F3-47EB-9FA8-43BD8D6E8548}|QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj|solutionrelative:qatarpaymenttest.middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\qatarpaymenttest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\qatarpaymenttest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.data\\dbcontextapp\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|solutionrelative:qatarpaymenttest.data\\dbcontextapp\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\entities\\contactcustomfieldvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\entities\\contactcustomfieldvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610132117_initilaDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QatarPaymentTest.Data\\Migrations\\20250610132117_initilaDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610130716_initilaDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QatarPaymentTest.Data\\Migrations\\20250610130716_initilaDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610130537_initilaDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QatarPaymentTest.Data\\Migrations\\20250610130537_initilaDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.data\\qatarpaymenttest.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|solutionrelative:qatarpaymenttest.data\\qatarpaymenttest.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest\\qatarpaymenttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9C807D71-D24E-4B29-88DC-FFC5A9A5844B}|QatarPaymentTest\\QatarPaymentTest.csproj|solutionrelative:qatarpaymenttest\\qatarpaymenttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\repos\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\repos\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\repos\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\repos\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\interfaces\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\interfaces\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.serves\\qatarpaymenttest.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE5C3EA1-6B66-4DF3-B754-6394B8679740}|QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj|solutionrelative:qatarpaymenttest.serves\\qatarpaymenttest.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\repos\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\repos\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\interface\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\interface\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\interface\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\interface\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\createcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\createcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.repositories\\qatarpaymenttest.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{20265837-7A68-432D-8D18-B2F969000085}|QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj|solutionrelative:qatarpaymenttest.repositories\\qatarpaymenttest.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\updatecustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\updatecustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\updatecontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\updatecontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\createcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\createcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.models\\dtos\\updatecompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B35E99-BE44-40DE-90CC-5B52940B7CAA}|QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj|solutionrelative:qatarpaymenttest.models\\dtos\\updatecompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.data\\configurations\\customfieldconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|solutionrelative:qatarpaymenttest.data\\configurations\\customfieldconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|solutionrelative:qatarpaymenttest.data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.data\\configurations\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|solutionrelative:qatarpaymenttest.data\\configurations\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|c:\\users\\dell\\source\\repos\\qatarpaymenttest\\qatarpaymenttest.data\\migrations\\20250610132408_initiladb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0CF549-B430-4CEB-BE57-797F2CE9F57D}|QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj|solutionrelative:qatarpaymenttest.data\\migrations\\20250610132408_initiladb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Extensions\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\MappingProfile.cs",
+              "RelativeToolTip": "QatarPaymentTest.Extensions\\MappingProfile.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:42:49.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "QatarPaymentTest\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:12:43.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\CompanyDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CompanyDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\CompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:29:24.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Implementation\\CompanyService.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\Implementation\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Implementation\\CompanyService.cs",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\Implementation\\CompanyService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:43:01.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Entities\\Company.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\Company.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Entities\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:26:30.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "QatarPaymentTest\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:15:25.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Entities\\Contact.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\Contact.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Entities\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:26:59.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Implementation\\ContactService.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\Implementation\\ContactService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Implementation\\ContactService.cs",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\Implementation\\ContactService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAArwCYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:47:48.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Program.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Program.cs",
+              "RelativeToolTip": "QatarPaymentTest\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:44:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\ContactDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\ContactDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\ContactDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\ContactDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:30:10.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomField.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\CustomField.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Entities\\CustomField.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\CustomField.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Entities\\CustomField.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:27:21.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyCustomFieldValue.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\CompanyCustomFieldValue.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Entities\\CompanyCustomFieldValue.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\CompanyCustomFieldValue.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Entities\\CompanyCustomFieldValue.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:27:48.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomFieldType.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Enum\\CustomFieldType.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Enum\\CustomFieldType.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Enum\\CustomFieldType.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Enum\\CustomFieldType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:48:36.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomFieldService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Implementation\\CustomFieldService.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\Implementation\\CustomFieldService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Implementation\\CustomFieldService.cs",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\Implementation\\CustomFieldService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAApwCoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:48:27.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomFieldDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CustomFieldDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\CustomFieldDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CustomFieldDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\CustomFieldDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:30:55.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateCustomFieldDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CreateCustomFieldDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\CreateCustomFieldDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CreateCustomFieldDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\CreateCustomFieldDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:31:07.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomFieldsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Controllers\\CustomFieldsController.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\Controllers\\CustomFieldsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\Controllers\\CustomFieldsController.cs",
+              "RelativeToolTip": "QatarPaymentTest\\Controllers\\CustomFieldsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:15:39.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "QatarPaymentTest.Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:50:07.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICustomFieldService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Interfaces\\ICustomFieldService.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\Interfaces\\ICustomFieldService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Interfaces\\ICustomFieldService.cs",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\Interfaces\\ICustomFieldService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:42:28.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\appsettings.json",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\appsettings.json",
+              "RelativeToolTip": "QatarPaymentTest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T10:47:34.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "QatarPaymentTest.Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:57:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QatarPaymentTest.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.csproj",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\QatarPaymentTest.csproj",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.csproj",
+              "RelativeToolTip": "QatarPaymentTest\\QatarPaymentTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T10:16:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\DbContextApp\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\DbContextApp\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\DbContextApp\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\DbContextApp\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwGkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:22:07.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250610132408_initilaDb.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610132408_initilaDb.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Migrations\\20250610132408_initilaDb.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610132408_initilaDb.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Migrations\\20250610132408_initilaDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:24:09.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250610132117_initilaDb.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610132117_initilaDb.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Migrations\\20250610132117_initilaDb.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610132117_initilaDb.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Migrations\\20250610132117_initilaDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:21:17.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250610130716_initilaDb.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610130716_initilaDb.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Migrations\\20250610130716_initilaDb.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610130716_initilaDb.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Migrations\\20250610130716_initilaDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:07:16.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ContactCustomFieldValue.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\ContactCustomFieldValue.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Entities\\ContactCustomFieldValue.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Entities\\ContactCustomFieldValue.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Entities\\ContactCustomFieldValue.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAD4vxQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:28:09.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250610130537_initilaDb.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610130537_initilaDb.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Migrations\\20250610130537_initilaDb.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Migrations\\20250610130537_initilaDb.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Migrations\\20250610130537_initilaDb.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:05:37.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QatarPaymentTest.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
+              "RelativeToolTip": "QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T12:39:56.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "QatarPaymentTest.http",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.http",
+              "RelativeDocumentMoniker": "QatarPaymentTest\\QatarPaymentTest.http",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.http",
+              "RelativeToolTip": "QatarPaymentTest\\QatarPaymentTest.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-10T12:40:28.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Repos\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\Repos\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Repos\\ContactRepository.cs",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\Repos\\ContactRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAASwDwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:42:59.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Repos\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\Repos\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Repos\\GenericRepository.cs",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\Repos\\GenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:40:44.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Interfaces\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\Interfaces\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Interfaces\\ICompanyService.cs",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\Interfaces\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:40:35.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Interfaces\\IContactService.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\Interfaces\\IContactService.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\Interfaces\\IContactService.cs",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\Interfaces\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:42:06.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "QatarPaymentTest.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
+              "RelativeToolTip": "QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T09:42:47.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Repos\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\Repos\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Repos\\CompanyRepository.cs",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\Repos\\CompanyRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:41:32.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Interface\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\Interface\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Interface\\ICompanyRepository.cs",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\Interface\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:37:57.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Interface\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\Interface\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Interface\\IGenericRepository.cs",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\Interface\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:37:03.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Interface\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\Interface\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\Interface\\IContactRepository.cs",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\Interface\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:39:38.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateCompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CreateCompanyDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\CreateCompanyDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CreateCompanyDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\CreateCompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:29:37.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "QatarPaymentTest.Repositories.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
+              "RelativeToolTip": "QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T10:35:56.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\ApiResponse.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\ApiResponse.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwB8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:31:50.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateCustomFieldDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\UpdateCustomFieldDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\UpdateCustomFieldDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\UpdateCustomFieldDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\UpdateCustomFieldDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:31:23.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateContactDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\UpdateContactDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\UpdateContactDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\UpdateContactDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\UpdateContactDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:30:37.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateContactDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CreateContactDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\CreateContactDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\CreateContactDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\CreateContactDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:30:23.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateCompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\UpdateCompanyDto.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Models\\Dtos\\UpdateCompanyDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\Dtos\\UpdateCompanyDto.cs",
+              "RelativeToolTip": "QatarPaymentTest.Models\\Dtos\\UpdateCompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:29:50.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CustomFieldConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Configurations\\CustomFieldConfiguration.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Configurations\\CustomFieldConfiguration.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Configurations\\CustomFieldConfiguration.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Configurations\\CustomFieldConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:22:30.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ContactConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Configurations\\ContactConfiguration.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Configurations\\ContactConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:22:23.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CompanyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Configurations\\CompanyConfiguration.cs",
+              "RelativeDocumentMoniker": "QatarPaymentTest.Data\\Configurations\\CompanyConfiguration.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\Configurations\\CompanyConfiguration.cs",
+              "RelativeToolTip": "QatarPaymentTest.Data\\Configurations\\CompanyConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:22:15.965Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

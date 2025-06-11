@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QatarPaymentTest.Data\QatarPaymentTest.Data.csproj" />
+    <ProjectReference Include="..\QatarPaymentTest.Models\QatarPaymentTest.Models.csproj" />
+  </ItemGroup>
+
+</Project>

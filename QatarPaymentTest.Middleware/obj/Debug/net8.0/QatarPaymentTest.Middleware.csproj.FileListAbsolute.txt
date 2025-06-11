@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\bin\Debug\net8.0\QatarPaymentTest.Middleware.deps.json
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\bin\Debug\net8.0\QatarPaymentTest.Middleware.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\bin\Debug\net8.0\QatarPaymentTest.Middleware.pdb
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.AssemblyInfo.cs
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\refint\QatarPaymentTest.Middleware.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\QatarPaymentTest.Middleware.pdb
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Middleware\obj\Debug\net8.0\ref\QatarPaymentTest.Middleware.dll

@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.AssemblyInfo.cs
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Repositories.deps.json
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Repositories.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Repositories.pdb
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Data.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Models.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Data.pdb
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\bin\Debug\net8.0\QatarPaymentTest.Models.pdb
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPay.A35EA605.Up2Date
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\refint\QatarPaymentTest.Repositories.dll
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\QatarPaymentTest.Repositories.pdb
+C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Repositories\obj\Debug\net8.0\ref\QatarPaymentTest.Repositories.dll
