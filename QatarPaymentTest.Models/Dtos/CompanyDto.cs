@@ -12,7 +12,7 @@ namespace QatarPaymentTest.Models.Dtos
         public string Name { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
-        public List<ContactDto> Contacts { get; set; } = new();
+        public List<int> ContactsIds { get; set; } = new();
         public Dictionary<string, object?> CustomFields { get; set; } = new();
     }
 }
