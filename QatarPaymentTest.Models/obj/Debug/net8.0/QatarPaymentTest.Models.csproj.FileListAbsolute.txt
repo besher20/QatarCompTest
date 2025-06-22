@@ -9,3 +9,8 @@ C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Models\obj\Debug\ne
 C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Models\obj\Debug\net8.0\refint\QatarPaymentTest.Models.dll
 C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Models\obj\Debug\net8.0\QatarPaymentTest.Models.pdb
 C:\Users\DELL\source\repos\QatarPaymentTest\QatarPaymentTest.Models\obj\Debug\net8.0\ref\QatarPaymentTest.Models.dll
+E:\QatarTest\QatarCompTest\QatarPaymentTest.Models\obj\Debug\net8.0\QatarPaymentTest.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\QatarTest\QatarCompTest\QatarPaymentTest.Models\obj\Debug\net8.0\QatarPaymentTest.Models.AssemblyInfoInputs.cache
+E:\QatarTest\QatarCompTest\QatarPaymentTest.Models\obj\Debug\net8.0\QatarPaymentTest.Models.AssemblyInfo.cs
+E:\QatarTest\QatarCompTest\QatarPaymentTest.Models\obj\Debug\net8.0\QatarPaymentTest.Models.csproj.CoreCompileInputs.cache
+E:\QatarTest\QatarCompTest\QatarPaymentTest.Models\obj\Debug\net8.0\QatarPaymentTest.Models.sourcelink.json

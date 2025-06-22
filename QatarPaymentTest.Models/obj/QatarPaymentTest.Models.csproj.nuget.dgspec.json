@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {}
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
         "projectName": "QatarPaymentTest.Models",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

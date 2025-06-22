@@ -16,21 +16,29 @@ namespace QatarPaymentTest.Models.Entities
         [StringLength(100)]
         public string Name { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(50)]
-        public string EntityType { get; set; } = string.Empty; // "Company" or "Contact"
-
-        public CustomFieldType FieldType { get; set; }
-
-        public bool IsRequired { get; set; } = false;
-
         [StringLength(500)]
         public string? Description { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        [Required]
+        [StringLength(50)]
+        public string EntityType { get; set; } = string.Empty;
+
+        public CustomFieldType FieldType { get; set; }
+
+        public bool IsRequired { get; set; }
+
+        [StringLength(1000)]
+        public string? DefaultValue { get; set; }
+
+        public bool IsActive { get; set; } = true;
+        public bool IsDeleted { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
 
         // Navigation properties
-        public virtual ICollection<CompanyCustomFieldValue> CompanyValues { get; set; } = new List<CompanyCustomFieldValue>();
         public virtual ICollection<ContactCustomFieldValue> ContactValues { get; set; } = new List<ContactCustomFieldValue>();
+        public virtual ICollection<CompanyCustomFieldValue> CompanyValues { get; set; } = new List<CompanyCustomFieldValue>();
     }
 }

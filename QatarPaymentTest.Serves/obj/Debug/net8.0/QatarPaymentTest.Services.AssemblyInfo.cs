@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QatarPaymentTest.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ec261a5079180d2f1012f967f0487bcf2830b46")]
 [assembly: System.Reflection.AssemblyProductAttribute("QatarPaymentTest.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QatarPaymentTest.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

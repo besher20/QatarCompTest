@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\QatarPaymentTest.Data\QatarPaymentTest.Data.csproj" />
     <ProjectReference Include="..\QatarPaymentTest.Models\QatarPaymentTest.Models.csproj" />
   </ItemGroup>

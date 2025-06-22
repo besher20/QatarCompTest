@@ -20,21 +20,23 @@ namespace QatarPaymentTest.Data.Migrations
                 .HasAnnotation("ProductVersion", "9.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
+            NpgsqlModelBuilderExtensions.HasPostgresExtension(modelBuilder, "citext");
+            NpgsqlModelBuilderExtensions.HasPostgresExtension(modelBuilder, "pg_trgm");
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("CompanyContact", b =>
+            modelBuilder.Entity("CompanyContacts", b =>
                 {
-                    b.Property<int>("CompaniesId")
+                    b.Property<int>("CompanyId")
                         .HasColumnType("integer");
 
-                    b.Property<int>("ContactsId")
+                    b.Property<int>("ContactId")
                         .HasColumnType("integer");
 
-                    b.HasKey("CompaniesId", "ContactsId");
+                    b.HasKey("CompanyId", "ContactId");
 
-                    b.HasIndex("ContactsId");
+                    b.HasIndex("ContactId");
 
-                    b.ToTable("CompanyContact");
+                    b.ToTable("CompanyContacts");
                 });
 
             modelBuilder.Entity("QatarPaymentTest.Models.Entities.Company", b =>
@@ -48,10 +50,22 @@ namespace QatarPaymentTest.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
+                        .HasColumnType("citext");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
@@ -59,7 +73,11 @@ namespace QatarPaymentTest.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasDatabaseName("IX_Companies_Name_Search");
+
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("Name"), "gist");
+                    NpgsqlIndexBuilderExtensions.HasOperators(b.HasIndex("Name"), new[] { "gist_trgm_ops" });
 
                     b.ToTable("Companies");
                 });
@@ -91,8 +109,15 @@ namespace QatarPaymentTest.Data.Migrations
 
                     b.HasIndex("CustomFieldId");
 
+                    b.HasIndex("Value");
+
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("Value"), "gin");
+                    NpgsqlIndexBuilderExtensions.HasOperators(b.HasIndex("Value"), new[] { "gin_trgm_ops" });
+
                     b.HasIndex("CompanyId", "CustomFieldId")
                         .IsUnique();
+
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("CompanyId", "CustomFieldId"), "btree");
 
                     b.ToTable("CompanyCustomFieldValues");
                 });
@@ -108,18 +133,50 @@ namespace QatarPaymentTest.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Name")
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
+                        .HasColumnType("citext");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("citext");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
+
+                    b.Property<bool>("IsInactive")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsPrimary")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("citext");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Name")
-                        .IsUnique();
+                    b.HasIndex("Email")
+                        .IsUnique()
+                        .HasDatabaseName("IX_Contacts_Email_Search");
+
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("Email"), "gist");
+                    NpgsqlIndexBuilderExtensions.HasOperators(b.HasIndex("Email"), new[] { "gist_trgm_ops" });
 
                     b.ToTable("Contacts");
                 });
@@ -151,8 +208,15 @@ namespace QatarPaymentTest.Data.Migrations
 
                     b.HasIndex("CustomFieldId");
 
+                    b.HasIndex("Value");
+
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("Value"), "gin");
+                    NpgsqlIndexBuilderExtensions.HasOperators(b.HasIndex("Value"), new[] { "gin_trgm_ops" });
+
                     b.HasIndex("ContactId", "CustomFieldId")
                         .IsUnique();
+
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("ContactId", "CustomFieldId"), "btree");
 
                     b.ToTable("ContactCustomFieldValues");
                 });
@@ -168,6 +232,13 @@ namespace QatarPaymentTest.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("DefaultValue")
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<string>("Description")
                         .HasMaxLength(500)
                         .HasColumnType("character varying(500)");
@@ -177,8 +248,17 @@ namespace QatarPaymentTest.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
 
-                    b.Property<int>("FieldType")
-                        .HasColumnType("integer");
+                    b.Property<string>("FieldType")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
 
                     b.Property<bool>("IsRequired")
                         .HasColumnType("boolean");
@@ -186,27 +266,32 @@ namespace QatarPaymentTest.Data.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
+                        .HasColumnType("citext");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
                     b.HasIndex("Name", "EntityType")
                         .IsUnique();
 
+                    NpgsqlIndexBuilderExtensions.HasMethod(b.HasIndex("Name", "EntityType"), "btree");
+
                     b.ToTable("CustomFields");
                 });
 
-            modelBuilder.Entity("CompanyContact", b =>
+            modelBuilder.Entity("CompanyContacts", b =>
                 {
                     b.HasOne("QatarPaymentTest.Models.Entities.Company", null)
                         .WithMany()
-                        .HasForeignKey("CompaniesId")
+                        .HasForeignKey("CompanyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("QatarPaymentTest.Models.Entities.Contact", null)
                         .WithMany()
-                        .HasForeignKey("ContactsId")
+                        .HasForeignKey("ContactId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

@@ -15,7 +15,12 @@ Log.Logger = new LoggerConfiguration()
 
 
 // Add services to the container
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.WriteIndented = true;
+    });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -64,6 +69,35 @@ app.UseAuthorization();
 
 // Map controller routes
 app.MapControllers();
+
+// Seed Data
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        await services.SeedDataAsync();
+
+        // Generate test data if environment is Development
+        if (app.Environment.IsDevelopment())
+        {
+            Console.WriteLine("Do you want to generate test data? (y/n)");
+            var response = Console.ReadLine()?.ToLower();
+            if (response == "y")
+            {
+                Console.WriteLine("Enter number of records to generate (default is 1,000,000):");
+                var input = Console.ReadLine();
+                var numberOfRecords = string.IsNullOrEmpty(input) ? 1000000 : int.Parse(input);
+                await services.GenerateMillionRecordsAsync(numberOfRecords);
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred while seeding the database.");
+    }
+}
 
 // Run the application
 app.Run();

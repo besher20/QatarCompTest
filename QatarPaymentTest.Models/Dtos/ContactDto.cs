@@ -1,18 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace QatarPaymentTest.Models.Dtos
 {
     public class ContactDto
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(100)]
+        public string FirstName { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(100)]
+        public string LastName { get; set; } = string.Empty;
+
+        public string Name => $"{FirstName} {LastName}".Trim();
+
+        [Required]
+        [EmailAddress]
+        [StringLength(200)]
+        public string Email { get; set; } = string.Empty;
+
+        [StringLength(500)]
+        public string? Description { get; set; }
+
+        public bool IsPrimary { get; set; }
+        public bool IsInactive { get; set; }
+        public bool IsDeleted { get; set; }
+
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
-        public List<int> ContactsIds { get; set; } = new();
-        public Dictionary<string, object?> CustomFields { get; set; } = new();
+        public DateTime? DeletedAt { get; set; }
+
+        public List<CompanyDto> Companies { get; set; } = new();
+        public Dictionary<int, string> CustomFieldValues { get; set; } = new();
     }
+
+
+ 
 }

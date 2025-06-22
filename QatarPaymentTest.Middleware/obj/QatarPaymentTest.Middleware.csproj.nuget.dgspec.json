@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {}
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
         "projectName": "QatarPaymentTest.Middleware",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

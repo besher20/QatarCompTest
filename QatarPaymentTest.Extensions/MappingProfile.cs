@@ -13,33 +13,47 @@ namespace QatarPaymentTest.Extensions
     {
         public MappingProfile()
         {
-
-            CreateMap<CreateCustomFieldDto, CustomField>()
-                .ForMember(dest => dest.Id, opt => opt.Ignore())
-                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => DateTime.UtcNow))
-                .ForMember(dest => dest.CompanyValues, opt => opt.Ignore())
-                .ForMember(dest => dest.ContactValues, opt => opt.Ignore());
-
-            CreateMap<CustomField, CustomFieldDto>();
-
-
-            CreateMap<ContactDto, Contact>()
-                .ForMember(dest => dest.Companies, opt => opt.Ignore()) // Handle separately
-                .ForMember(dest => dest.CustomFieldValues, opt => opt.Ignore()); // Handle separately
-
             CreateMap<Contact, ContactDto>()
                 .ForMember(dest => dest.Companies, opt => opt.MapFrom(src => src.Companies))
-                .ForMember(dest => dest.CustomFields, opt => opt.Ignore());
+                .ForMember(dest => dest.CustomFieldValues, opt => opt.MapFrom(src => src.CustomFieldValues.ToDictionary(
+                    cf => cf.CustomFieldId,
+                    cf => cf.Value ?? string.Empty
+                )));
 
-            CreateMap<CompanyDto, Company>()
-          .ForMember(dest => dest.Contacts, opt => opt.Ignore()) // Handle many-to-many separately
-          .ForMember(dest => dest.CustomFieldValues, opt => opt.Ignore()); // Handle custom fields separately
+            CreateMap<CreateContactDto, Contact>()
+                .ForMember(dest => dest.Companies, opt => opt.Ignore())
+                .ForMember(dest => dest.CustomFieldValues, opt => opt.Ignore())
+                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => System.DateTime.UtcNow));
+
+            CreateMap<UpdateContactDto, Contact>()
+                .ForMember(dest => dest.Companies, opt => opt.Ignore())
+                .ForMember(dest => dest.CustomFieldValues, opt => opt.Ignore())
+                .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => System.DateTime.UtcNow));
 
             CreateMap<Company, CompanyDto>()
                 .ForMember(dest => dest.Contacts, opt => opt.MapFrom(src => src.Contacts))
-                .ForMember(dest => dest.CustomFields, opt => opt.Ignore());
+                .ForMember(dest => dest.CustomFields, opt => opt.MapFrom(src => src.CustomFieldValues.ToDictionary(
+                    cf => cf.CustomFieldId,
+                    cf => cf.Value ?? string.Empty
+                )));
 
+            CreateMap<Contact, ContactSummaryDto>();
 
+            CreateMap<CreateCompanyDto, Company>()
+                .ForMember(dest => dest.Contacts, opt => opt.Ignore())
+                .ForMember(dest => dest.CustomFieldValues, opt => opt.Ignore())
+                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => System.DateTime.UtcNow));
+
+            CreateMap<UpdateCompanyDto, Company>()
+                .ForMember(dest => dest.Contacts, opt => opt.Ignore())
+                .ForMember(dest => dest.CustomFieldValues, opt => opt.Ignore())
+                .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => System.DateTime.UtcNow));
+
+            CreateMap<CustomField, CustomFieldDto>();
+            CreateMap<CreateCustomFieldDto, CustomField>()
+                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => System.DateTime.UtcNow));
+            CreateMap<CustomFieldDto, CustomField>()
+                .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => System.DateTime.UtcNow));
         }
     }
 }

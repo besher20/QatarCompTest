@@ -15,8 +15,14 @@ namespace QatarPaymentTest.Models.Entities
         [StringLength(200)]
         public string Name { get; set; } = string.Empty;
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        [StringLength(1000)]
+        public string? Description { get; set; }
+
+        public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
+        
+        public bool IsDeleted { get; set; }
 
         // Navigation properties
         public virtual ICollection<Contact> Contacts { get; set; } = new List<Contact>();

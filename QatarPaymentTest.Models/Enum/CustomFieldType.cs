@@ -8,8 +8,11 @@ namespace QatarPaymentTest.Models.Enum
 {
     public enum CustomFieldType
     {
-        Text = 1,
-        Number = 2,
-        Date = 3
+        Text,
+        Number,
+        Date,
+        Boolean,
+        Email,
+        Phone
     }
 }

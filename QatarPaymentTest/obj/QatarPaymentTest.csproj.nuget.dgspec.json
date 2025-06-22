@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.csproj": {}
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest\\QatarPaymentTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
         "projectName": "QatarPaymentTest.Data",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj"
               }
             }
           }
@@ -57,9 +57,11 @@
               "target": "Package",
               "version": "[9.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.5, )"
             },
@@ -98,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj",
         "projectName": "QatarPaymentTest.Extensions",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -126,11 +128,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj"
               }
             }
           }
@@ -175,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
         "projectName": "QatarPaymentTest.Middleware",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -249,14 +251,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
         "projectName": "QatarPaymentTest.Models",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -313,14 +315,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
         "projectName": "QatarPaymentTest.Repositories",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -341,11 +343,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj"
               }
             }
           }
@@ -364,6 +366,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -384,14 +396,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
         "projectName": "QatarPaymentTest.Services",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Serves\\QatarPaymentTest.Services.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Serves\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Serves\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -412,11 +424,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Models\\QatarPaymentTest.Models.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Repositories\\QatarPaymentTest.Repositories.csproj"
               }
             }
           }
@@ -461,14 +473,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.csproj": {
+    "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest\\QatarPaymentTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.csproj",
+        "projectUniqueName": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest\\QatarPaymentTest.csproj",
         "projectName": "QatarPaymentTest",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\QatarPaymentTest.csproj",
+        "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest\\QatarPaymentTest.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest\\obj\\",
+        "outputPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -489,14 +501,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Data\\QatarPaymentTest.Data.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Extensions\\QatarPaymentTest.Extensions.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\QatarPaymentTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj"
+              "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj": {
+                "projectPath": "E:\\QatarTest\\QatarCompTest\\QatarPaymentTest.Middleware\\QatarPaymentTest.Middleware.csproj"
               }
             }
           }
